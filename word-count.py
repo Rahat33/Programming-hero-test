@@ -3,7 +3,7 @@ count = 0
 
 for char in word:
     if char == ' ':
-        count += count
-count += count
+        count = count + 1
+count = count + 1
 
 print(count)
