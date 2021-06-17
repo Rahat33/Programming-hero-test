@@ -4,6 +4,6 @@ count = 0
 for char in word:
     if char == ' ':
         count += count
-count +=count
+count += count
 
 print(count)
